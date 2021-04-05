@@ -70,6 +70,20 @@ header {
   color: #000;
 }
 
+.signin {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-right: 40px;
+}
+
+.signin a {
+  padding: 0 20px;
+  font-weight: bold;
+  color: #0065fc;
+  text-decoration: none;
+}
+
 nav ul li {
   border-top: solid 2.5px transparent;
 }
@@ -89,25 +103,6 @@ nav ul li {
 
 .main-nav .activities:hover {
   border-top: 2px solid #0065fc;
-}
-
-.signin {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  margin-right: 40px;
-}
-
-.signin a {
-  padding: 0 20px;
-  font-weight: bold;
-  color: #0065FC;
-  text-decoration: none;
-}
-
-.main-nav .signin {
-  color: #0065FC;
-  font-weight: bold;
 }
 
 	/* RECHERCHE */
