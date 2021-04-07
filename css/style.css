@@ -107,6 +107,11 @@ nav ul li {
 
 	/* RECHERCHE */
 
+#recherche {
+  margin: 0;
+  padding: 0;
+}
+
 .main-container {
   position: relative;
   margin: 50px 0 0;
@@ -117,8 +122,7 @@ nav ul li {
 }
 
 .main-container p {
-  margin-top: 20px;
-  font-weight: bold;
+  margin-top: 10px;
 }
 
 .search-container {
@@ -128,38 +132,38 @@ nav ul li {
 .btn-1 .gps {
   background-color: #F2F2F2;
   height: 50px;
-  width: 50px;
+  width: 52px;
   line-height: 50px;
   text-align: center;
-  font-size: 1.2rem;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  font-size: 1.1em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .btn-1 .search {
   position: relative;
   right: 5px;
-  width: 220px;
+  width: 240px;
   height: 50px;
   border: 1px solid #F2F2F2;
   font-size: 18px;
   color: #000;
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 18px;
 }
 
 .btn-2 {
   margin-left: -10px;
-  width: 110px;
+  width: 130px;
   height: 50px;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 50px;
   background-color: #0065FC;
   color: #fff;
   border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   cursor: pointer;
 }
 
@@ -173,11 +177,6 @@ nav ul li {
 
 	/* FILTRE */
 
-#recherche {
-  margin: 0;
-  padding: 0;
-}
-
 .filter-container {
   display: flex;
   align-items: center;
@@ -190,16 +189,16 @@ nav ul li {
   font-size: 1.5em;
 }
 
-.filter {
-  display: flex;
-  margin-left: 40px;
+.filter-mini {
+  display: flex;  
 }
 
 .filter-categories {
-  margin-right: 30px;
+  margin-left: 30px;
   border: 2px solid #d9d9d9;
   border-radius: 30px;
-  height: 55px;
+  height: 54px;
+  border-left: none;
 }
 
 .filter-categories:hover {
@@ -208,18 +207,18 @@ nav ul li {
 
 .filter-icons {
   background-color: #deebff;
-  height: 51px;
+  height: 50px;
   width: 50px;
   border-radius: 50%;
   text-align: center;
-  line-height: 50px;
+  line-height: 45px;
   color: #0065FC;
 }
 
 .filter-details {
   text-decoration: none;
   color: #000;
-  padding-left: 15px;
+  padding-left: 5px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -229,7 +228,7 @@ nav ul li {
 }
 
 .eco {
-  width: 195px;
+  width: 185px;
 }
 
 .family {
@@ -264,10 +263,9 @@ nav ul li {
 
 .infos p {
   margin-left: 10px;
-  font-weight: bold;
 }
 
-/* MENU HEBERGEMENTS */
+/* HEBERGEMENTS */
 
 main {
   margin: 0 auto;
@@ -283,16 +281,16 @@ main {
 .logement {
   background-color: #F2F2F2;
   flex: 100%;
-  height: 680px;
+  height: 630px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 25px 20px;
   border-radius: 15px;
   margin-bottom: 25px;
 }
 
 .logement h2 {
   font-size: 25px;
-  margin: 20px 25px 0;
+  margin: 18px 25px 0;
 }
 
 .logement-container {
@@ -303,9 +301,9 @@ main {
 }
 
 .logements-cart {
-  flex: 30%;
+  width: 210px;
   margin-top: 30px;
-  height: 210px;
+  height: 200px;
   margin-left: 20px;
   background-color: #fff;
   border-radius: 15px;
@@ -369,25 +367,24 @@ main {
 .other-page {
   flex: 1;
   margin-left: 25px;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .other-page a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 	/* ASIDE */
 
 .aside {
-  flex: 20%;
-  height: 680px;
+  height: 630px;
   background-color: #F2F2F2;
   border-radius: 10px;
   margin-left: 30px;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .aside-title {
@@ -399,7 +396,7 @@ main {
 
 .aside-title h2 {
   font-size: 25px;
-  margin: 5px 5px 0 0;
+  margin: 3px 5px 0 0;
 }
 
 .aside-contain {
@@ -409,14 +406,12 @@ main {
 }
 
 .aside-container {
-  width: 320px;
+  width: 345px;
   height: 145px;
   background-color: #fff;
   box-shadow: 0 0 6px 3px #d8d7d7;
   border-radius: 15px;
-  margin-top: 30px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin: 30px 5px 0;
 }
 
 .aside-container:hover {
@@ -435,7 +430,7 @@ main {
 .cart-details {
   display: flex;
   flex-direction: column;
-  margin-top: -125px;
+  margin-top: -133px;
   margin-left: 150px;
 }
 
@@ -455,7 +450,7 @@ main {
 }
 
 .cart-star-icons {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 12px;
 }
 
@@ -466,95 +461,76 @@ main {
 
 	/* ACTIVITES */
 
-#activites {
-	width: 1265px;
-}
-
-.activites-list .activites-group {
+.containerActivites {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: space-between;
   justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-  height: 400px;
-
-  margin-bottom: 40px;
+  height: 430px;
+  box-sizing: border-box;
 }
 
-.title {
-  margin: 50px 0 30px;
+.blocActivite {
+  width: 23%;
 }
 
-.activites-list .activites-group .activite {
-  width: 22%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-between;
+.Activite {
   border-radius: 15px;
   box-shadow: 0 0 6px 3px #d8d7d7;
 }
 
-.activites-list .activites-group .activite .image {
-  flex: 1;
-  border-radius: 8px 8px 0 0;
-}
-.activites-list .activites-group .activite h6 {
-  font-size: 0.9em;
-  margin: 15px;
-}
-.activites-list .activites-group .activite2 {
-  flex-basis: 50%;
-}
-.activites-list .activites-group .activite3 {
-  flex-basis: 38%;
-}
-.activites-list .activites-group .activite5 {
-  flex-basis: 45%;
-}
-.activites-list .activites-group .activite6 {
-  flex-basis: 45%;
-}
-
-.activites-list .activites-group .activite1 .image {
-  background-image: url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.activites-list .activites-group .activite2 .image {
-  background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.activites-list .activites-group .activite3 .image {
-  background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.activites-list .activites-group .activite4 .image {
-  background-image: url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.activites-list .activites-group .activite5 .image {
-  background-image: url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  background-size: cover;
-  background-position: top;
-}
-.activites-list .activites-group .activite6 .image {
-  background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  background-size: cover;
-  background-position: top;
-}
-
-#activites a {
-	text-decoration: none;
-	color: #000;
-}
-
-#activites a:hover {
+.Activite:hover {
   transform: scale(1.01);
+}
+
+.titresection {
+  margin: 40px 0 30px;
+  font-size: 25px;
+  padding-left: 8px;
+}
+
+.Activite img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.activite1et4img {
+  height: 380px;
+}
+
+.activite2img {
+  height: 170px;
+}
+
+.activite3img {
+  height: 110px;
+}
+
+.activite5img {
+  height: 140px;
+}
+
+.activite6img {
+  height: 140px;
+}
+
+.clair {
+  text-decoration: none;
+}
+
+.nomactivite {
+  padding: 15px 0px 15px 20px;
+  color: black;
+}
+
+.Activite2 {
+  margin: 0px 0px 46px;
+}
+
+.Activite5 {
+  margin: 0px 0px 47px;
 }
 
 	/* FOOTER */
@@ -566,7 +542,7 @@ footer {
 }
 
 .footer-line {
-  margin-top: 80px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
 }
@@ -611,6 +587,8 @@ footer h1 {
 .footer-link:hover {
   color: #0065FC;
 }
+
+
 
 /* VERSION TABLETTE */
 
@@ -674,7 +652,7 @@ footer h1 {
     margin-top: -20px;
   }
 
-  .filter {
+  .filter-mini {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -703,6 +681,7 @@ footer h1 {
     line-height: 25px;
     font-size: 10px;
   }
+
   .infos p {
     font-size: 12px;
   }
@@ -724,6 +703,7 @@ footer h1 {
     border: none;
     cursor: pointer;
   }
+
   .search-icons {
     color: #fff;
     font-size: 15px;
@@ -740,7 +720,7 @@ footer h1 {
     font-weight: bold;
   }
 
-  .min-inscrire {
+  .min-signup {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
@@ -779,33 +759,35 @@ footer h1 {
   .star-icons {
     margin-bottom: 20px;
   }
+
   .aside {
     width: 100vw;
     margin-bottom: 50px;
     margin-left: -3px;
     margin-bottom: 50px;
   }
+
   .aside-container {
     width: 100%;
     margin-left: 0;
   }
 
-  .lodgement {
+  .logement {
     background-color: #fff;
     padding: 0;
   }
 
-  .lodgement h2 {
+  .logement h2 {
     margin-left: 20px;
   }
 
-  .lodgement-container {
+  .logement-container {
     display: flex;
     flex-direction: column;
     padding: 0;
   }
 
-  .lodgements-cart {
+  .logements-cart {
     flex: 0;
     flex-direction: column;
   }
@@ -830,7 +812,7 @@ footer h1 {
     margin-top: 25px;
   }
 
-  .main .activites__list .activites__group {
+  .main .activites-list .activites-group {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -846,7 +828,7 @@ footer h1 {
     margin-bottom: 0;
   }
 
-  .main .activites__list .activites__group .activite {
+  .main .activites-list .activites-group .activite {
     flex-basis: 12rem !important;
     width: 100%;
     margin-top: 15px;
