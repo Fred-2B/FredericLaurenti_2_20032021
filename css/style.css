@@ -572,6 +572,7 @@ footer {
   margin-left: 300px;
   margin-bottom: 40px;
 }
+
 footer h1 {
   font-size: 18px;
   margin-top: 40px;
@@ -590,7 +591,86 @@ footer h1 {
 
 
 
-/* VERSION TABLETTE */
+
+
+@media screen and (min-width: 765px) and (max-width: 1023px) {
+  .btn-2 {
+    display: none;
+  }
+
+  .btn-2-min {
+    position: relative;
+    bottom: 50px;
+    left: 60%;
+    display: block;
+    background-color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-1 .search {
+    position: relative;
+    right: 5px;
+    margin-right: 0px;
+    width: 60%;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+  }
+
+  .search-icons {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .filter-categories {
+    margin-bottom: 20px;
+  }
+
+  .animal {
+    margin-left: 75px;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: normal;
+  }
+
+  .logement {
+    background-color: #fff;
+  }
+
+  .aside {
+    width: 100vw;
+    margin-bottom: 50px;
+    margin-left: -40px;
+  }
+
+  .aside-container {
+    width: 100%;
+  }
+
+  .cart-details {
+    margin-left: 140px;
+  }
+
+  .footer-description-loge {
+    margin-left: 50px;
+  }
+
+  .footer-link {
+    font-size: 15px;
+  }
+
+  .footer-nav {
+    margin-left: 50px;
+  }
+}
 
 @media screen and (max-width: 764px) {
   header {
@@ -600,7 +680,6 @@ footer h1 {
 
   .main-container {
     position: relative;
-    top: 0;
   }
 
   .main-nav .location:hover,
@@ -609,7 +688,7 @@ footer h1 {
   }
 
   nav ul li {
-    border-bottom: 2.5px solid #0065FC;
+    border-bottom: 2.5px solid #F2F2F2;
     padding-bottom: 15px;
   }
 
@@ -656,6 +735,7 @@ footer h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .filter-categories {
@@ -663,6 +743,7 @@ footer h1 {
     margin-top: 20px;
     margin-left: 0;
   }
+
   .eco {
     width: 160px;
   }
@@ -773,7 +854,7 @@ footer h1 {
   }
 
   .logement {
-    background-color: #fff;
+    background-color: #F2F2F2;
     padding: 0;
   }
 
@@ -790,6 +871,7 @@ footer h1 {
   .logements-cart {
     flex: 0;
     flex-direction: column;
+    width: auto;
   }
 
   .cart-details {
@@ -804,6 +886,7 @@ footer h1 {
   .cart-details p {
     font-size: 0.8em;
   }
+
   .cart-star-icons {
     margin-bottom: 20px;
   }
@@ -812,26 +895,35 @@ footer h1 {
     margin-top: 25px;
   }
 
-  .main .activites-list .activites-group {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-    height: 73rem;
+   .containerActivites {
+    display: grid;
+    height: auto;
+    margin-bottom: 25px;
+    justify-content: normal;
+    
   }
 
-  .title {
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 0;
+  .blocActivite {
+    width: auto;
   }
 
-  .main .activites-list .activites-group .activite {
-    flex-basis: 12rem !important;
+  .Activite img {
     width: 100%;
-    margin-top: 15px;
+    height: 200px;
+  }
+
+  .Activite {
+    margin-bottom: 30%;
+    height: 70px;
+    -moz-margin-start: 62px;
+  }
+
+  .nomactivite {
+    padding: 8px 0px 5px 20px;
+    border-radius: 0 0 1.25rem 1.25rem;
+    border-color: transparent;
+    box-shadow: 0 0 6px 3px #d8d7d7;
+    margin-top: -12px;
   }
 
   footer {
@@ -860,5 +952,126 @@ footer h1 {
     display: flex;
     align-items: flex-start;
     margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .main-container h1 {
+    font-size: 20px;
+  }
+  .btn-1 .search {
+    position: relative;
+    right: 5px;
+    margin-right: 0px;
+    width: 69%;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .main-nav .activities::after {
+    margin-left: -50px !important;
+  }
+
+  .btn-2-min {
+    position: relative;
+    bottom: 45px;
+    left: 83%;
+    display: block;
+    background-color: #0065FC;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .filter-mini {
+    display: flex;
+    margin-left: -50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .family {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-nav .activities::after {
+    margin-left: -60px !important;
+  }
+
+  .main-nav .min-location::after {
+    margin-left: -60px !important;
+  }
+
+  .btn-2-min {
+    position: relative;
+    bottom: 45px;
+    left: 83%;
+    display: block;
+    background-color: #0065FC;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .main-nav {
+    margin-left: -14px;
+  }
+  .main-nav .activities::after {
+    margin-left: -55px !important;
+  }
+
+  .main-nav .min-location::after {
+    margin-left: -35px !important;
+  }
+
+  .btn-1 .search {
+    font-size: 12px;
+  }
+
+  .btn-2-min {
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    line-height: 30px;
+  }
+
+  .search-container {
+    margin-top: 28px;
+  }
+
+  .main-container {
+    position: relative;
+    top: 0;
+  }
+
+  .infos {
+    margin-top: 31px;
+  }
+
+  .cart-details h3,
+  .cart-details p {
+    font-size: 11px;
+    margin-left: -11px;
+  }
+
+  .logement h2,
+  .activite h2 {
+    font-size: 15px;
+  }
+
+  .cart-star-icons {
+    margin-top: 53px;
   }
 }
