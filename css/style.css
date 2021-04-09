@@ -627,12 +627,19 @@ footer h1 {
     font-size: 15px;
   }
 
-  .filter-categories {
-    margin-bottom: 20px;
+.filter-container {
+    display: inline-block;
+    margin-top: -20px;
   }
 
+  .filter-categories {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 0;
+}
+
   .animal {
-    margin-left: 75px;
+    
   }
 
   .group {
