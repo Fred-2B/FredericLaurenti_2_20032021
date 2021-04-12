@@ -627,13 +627,13 @@ footer h1 {
     font-size: 15px;
   }
 
-.filter-container {
+  .filter-container {
     display: inline-block;
     margin-top: -20px;
   }
 
   .filter-categories {
-    margin-bottom: 10px;
+    margin: 10px 0;
     display: block;
     margin-left: 0;
 }
@@ -664,6 +664,15 @@ footer h1 {
 
   .Activite {
     background-color: #fff;
+  }
+
+  .nomactivite {
+    font-size: 12px;
+    padding: 8px 0 15px 5px;
+  }
+
+  .activite1et4img {
+    height: 369px;
   }
 
   .footer-description-loge {
@@ -902,7 +911,7 @@ footer h1 {
     margin-top: 25px;
   }
 
-   .containerActivites {
+  .containerActivites {
     display: grid;
     height: auto;
     margin-bottom: 25px;
@@ -1099,7 +1108,7 @@ footer h1 {
   }
 }
 
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
   .logement {
     height: auto;
@@ -1117,8 +1126,8 @@ footer h1 {
     margin-bottom: 5px;
   }
 
-  /*.aside {
-    height: 650px;
+  .aside {
+    height: 615px;
   }
 
   .aside-title h2 {
@@ -1172,4 +1181,4 @@ footer h1 {
   .footer-link {
     font-size: 12px !important;
   }
-}*/
+}
