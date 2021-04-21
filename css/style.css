@@ -1,16 +1,12 @@
-/*
-  COULEURS
+
+ /* COULEURS
  	bleu================> #0065FC
  	version plus claire=> #DEEBFF
  	gris pour le fond===> #F2F2F2
 
- 	POLICE ==> font-family: 'Raleway', sans-serif;
- */
- /*
-html {
-  scroll-behavior: smooth;
-}
-*/
+ 	POLICE ==> font-family: 'Raleway', sans-serif;*/
+ 
+
 * {
   box-sizing: border-box;
   margin: 0;
