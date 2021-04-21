@@ -603,7 +603,7 @@ footer h3 {
   .searchButton-min {
     position: relative;
     bottom: 50px;
-    left: 50%;
+    left: 40%;
     display: block;
     background-color: #0065FC;
     height: 50px;
@@ -618,7 +618,7 @@ footer h3 {
     position: relative;
     right: 5px;
     margin-right: 0px;
-    width: 50%;
+    width: 40%;
     height: 50px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
@@ -758,7 +758,7 @@ footer h3 {
 
   .filter-categories {
     display: block;
-    margin-top: 20px 0 0;
+    margin: 20px 0 0;
   }
 
   .eco {
@@ -791,7 +791,7 @@ footer h3 {
   .searchButton-min {
     position: relative;
     bottom: 50px;
-    left: 50%;
+    left: 55%;
     display: block;
     background-color: #0065FC;
     height: 50px;
@@ -811,7 +811,7 @@ footer h3 {
     position: relative;
     right: 5px;
     margin-right: 0px;
-    width: 50%;
+    width: 55%;
     height: 50px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
