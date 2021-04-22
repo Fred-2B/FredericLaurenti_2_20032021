@@ -299,7 +299,6 @@ main {
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 6px 3px #d8d7d7;
-  transition: box-shadow 0.4s;
   text-decoration: none;
 }
 
@@ -512,16 +511,16 @@ main {
 }
 
 .nomactivite {
-  padding: 15px 0px 15px 20px;
+  padding: 15px 0 15px 20px;
   color: black;
 }
 
 .activite2 {
-  margin: 0px 0px 46px;
+  margin: 0 0 46px;
 }
 
 .activite5 {
-  margin: 0px 0px 47px;
+  margin: 0 0 47px;
 }
 
 	/* FOOTER */
@@ -613,7 +612,7 @@ footer h3 {
   .buttonGps .search {
     position: relative;
     right: 5px;
-    margin-right: 0px;
+    margin-right: 0;
     width: 40%;
     height: 50px;
     border: 1px solid #F2F2F2;
@@ -707,7 +706,7 @@ footer h3 {
   }
 
   nav ul li {
-    border-bottom: 2.5px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
     padding-bottom: 15px;
   }
 
@@ -806,7 +805,7 @@ footer h3 {
   .buttonGps .search {
     position: relative;
     right: 5px;
-    margin-right: 0px;
+    margin-right: 0;
     width: 55%;
     height: 50px;
     border: 1px solid #F2F2F2;
@@ -931,7 +930,7 @@ footer h3 {
   }
 
   .nomactivite {
-    padding: 20px 0px 15px 20px;
+    padding: 20px 0 15px 20px;
     border-radius: 0 0 1.25rem 1.25rem;
     border-color: transparent;
     box-shadow: 0 0 6px 3px #d8d7d7;
@@ -958,7 +957,7 @@ footer h3 {
   .buttonGps .search {
     position: relative;
     right: 5px;
-    margin-right: 0px;
+    margin-right: 0;
     width: 69%;
     height: 50px;
     border: 1px solid #F2F2F2;
